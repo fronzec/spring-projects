@@ -1,0 +1,54 @@
+### GET request to example server
+GET http://localhost:8080/orders/1
+
+###
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "orderId": 1,
+  "customerId": 1,
+  "totalPrice": 1.2,
+  "orderStatus": "CANCELLED",
+  "orderDate": "2024-01-01",
+  "deliveryAddress": "some address"
+}
+
+###
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "orderId": 2,
+  "customerId": 1,
+  "totalPrice": 1.2,
+  "orderStatus": "CANCELLED",
+  "orderDate": "2024-01-01",
+  "deliveryAddress": "some address"
+}
+
+###
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "orderId": 3,
+  "customerId": 1,
+  "totalPrice": 1.2,
+  "orderStatus": "CANCELLED",
+  "orderDate": "2024-01-01",
+  "deliveryAddress": "some address"
+}
+
+###
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "orderId": 4,
+  "customerId": 1,
+  "totalPrice": 1.2,
+  "orderStatus": "CANCELLED",
+  "orderDate": "2024-01-01",
+  "deliveryAddress": "some address"
+}
