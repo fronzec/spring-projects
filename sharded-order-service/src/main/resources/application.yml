@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sharded-order-service
+  datasource:
+    driver-class-name: org.apache.shardingsphere.driver.ShardingSphereDriver
+    url: jdbc:shardingsphere:classpath:sharding.yml
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+        ddl-auto: create-drop
+    open-in-view: false
